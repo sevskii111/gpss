@@ -1,0 +1,56 @@
+
+
+              GPSS World Simulation Report - model.5.1
+
+
+                   Friday, November 20, 2020 13:08:32  
+
+           START TIME           END TIME  BLOCKS  FACILITIES  STORAGES
+                0.000            360.000    21        1          0
+
+
+              NAME                       VALUE  
+          DENTIST                     10001.000
+          NORMALQE                    10000.000
+          PREMIUMQE                   10002.000
+
+
+ LABEL              LOC  BLOCK TYPE     ENTRY COUNT CURRENT COUNT RETRY
+                    1    GENERATE            23             0       0
+                    2    QUEUE               23             3       0
+                    3    SEIZE               20             0       0
+                    4    DEPART              20             0       0
+                    5    ADVANCE             20             1       0
+                    6    RELEASE             19             0       0
+                    7    TERMINATE           19             0       0
+                    8    GENERATE             5             0       0
+                    9    QUEUE                5             0       0
+                   10    SEIZE                5             0       0
+                   11    DEPART               5             0       0
+                   12    ADVANCE              5             0       0
+                   13    RELEASE              5             0       0
+                   14    TERMINATE            5             0       0
+                   15    GENERATE             2             1       0
+                   16    SEIZE                1             0       0
+                   17    ADVANCE              1             0       0
+                   18    RELEASE              1             0       0
+                   19    TERMINATE            1             0       0
+                   20    GENERATE             1             0       0
+                   21    TERMINATE            1             0       0
+
+
+FACILITY         ENTRIES  UTIL.   AVE. TIME AVAIL. OWNER PEND INTER RETRY DELAY
+ DENTIST             26    0.923      12.784  1       28    0    0     0      4
+
+
+QUEUE              MAX CONT. ENTRY ENTRY(0) AVE.CONT. AVE.TIME   AVE.(-0) RETRY
+ NORMALQE            5    3     23      3     2.131     33.357     38.361   0
+ PREMIUMQE           1    0      5      0     0.135      9.711      9.711   0
+
+
+FEC XN   PRI         BDT      ASSEM  CURRENT  NEXT  PARAMETER    VALUE
+    28    0         360.434     28      5      6
+    33    0         366.455     33      0      1
+    29    1         369.738     29      0      8
+    34    2         540.000     34      0     15
+    35    0         720.000     35      0     20

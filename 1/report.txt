@@ -1,0 +1,29 @@
+
+
+              GPSS World Simulation Report - model.10.1
+
+
+                   Thursday, November 12, 2020 13:22:12  
+
+           START TIME           END TIME  BLOCKS  FACILITIES  STORAGES
+                0.000            760.565     5        1          0
+
+
+              NAME                       VALUE  
+          EXAM                        10000.000
+
+
+ LABEL              LOC  BLOCK TYPE     ENTRY COUNT CURRENT COUNT RETRY
+                    1    GENERATE            25             0       0
+                    2    SEIZE               25             0       0
+                    3    ADVANCE             25             0       0
+                    4    RELEASE             25             0       0
+                    5    TERMINATE           25             0       0
+
+
+FACILITY         ENTRIES  UTIL.   AVE. TIME AVAIL. OWNER PEND INTER RETRY DELAY
+ EXAM                25    0.495      15.071  1        0    0    0     0      0
+
+
+FEC XN   PRI         BDT      ASSEM  CURRENT  NEXT  PARAMETER    VALUE
+    26    0         778.922     26      0      1

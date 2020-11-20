@@ -1,0 +1,50 @@
+
+
+              GPSS World Simulation Report - model.8.1
+
+
+                   Thursday, November 12, 2020 13:23:35  
+
+           START TIME           END TIME  BLOCKS  FACILITIES  STORAGES
+                0.000            480.000    16        1          0
+
+
+              NAME                       VALUE  
+          MAILMAN                     10001.000
+          RECIVEQE                    10000.000
+          SENDQE                      10002.000
+
+
+ LABEL              LOC  BLOCK TYPE     ENTRY COUNT CURRENT COUNT RETRY
+                    1    GENERATE            19             0       0
+                    2    QUEUE               19             0       0
+                    3    SEIZE               19             0       0
+                    4    DEPART              19             0       0
+                    5    ADVANCE             19             1       0
+                    6    RELEASE             18             0       0
+                    7    TERMINATE           18             0       0
+                    8    GENERATE            32             0       0
+                    9    QUEUE               32             1       0
+                   10    SEIZE               31             0       0
+                   11    DEPART              31             0       0
+                   12    ADVANCE             31             0       0
+                   13    RELEASE             31             0       0
+                   14    TERMINATE           31             0       0
+                   15    GENERATE             1             0       0
+                   16    TERMINATE            1             0       0
+
+
+FACILITY         ENTRIES  UTIL.   AVE. TIME AVAIL. OWNER PEND INTER RETRY DELAY
+ MAILMAN             50    0.721       6.926  1       51    0    0     0      1
+
+
+QUEUE              MAX CONT. ENTRY ENTRY(0) AVE.CONT. AVE.TIME   AVE.(-0) RETRY
+ RECIVEQE            2    1     32     16     0.176      2.633      5.266   0
+ SENDQE              1    0     19     12     0.018      0.453      1.229   0
+
+
+FEC XN   PRI         BDT      ASSEM  CURRENT  NEXT  PARAMETER    VALUE
+    51    0         484.484     51      5      6
+    54    0         487.370     54      0      8
+    53    0         501.405     53      0      1
+    55    0         960.000     55      0     15

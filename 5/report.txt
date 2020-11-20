@@ -1,0 +1,50 @@
+
+
+              GPSS World Simulation Report - model.8.1
+
+
+                   Thursday, November 12, 2020 13:21:17  
+
+           START TIME           END TIME  BLOCKS  FACILITIES  STORAGES
+                0.000          24000.000    22        1          0
+
+
+              NAME                       VALUE  
+          CRANE                       10000.000
+          POL                             2.000
+
+
+ LABEL              LOC  BLOCK TYPE     ENTRY COUNT CURRENT COUNT RETRY
+                    1    GENERATE             1             0       0
+POL                 2    SEIZE               84             0       0
+                    3    ADVANCE             84             0       0
+                    4    ADVANCE             84             0       0
+                    5    RELEASE             84             0       0
+                    6    ADVANCE             84             1       0
+                    7    SEIZE               83             0       0
+                    8    ADVANCE             83             0       0
+                    9    RELEASE             83             0       0
+                   10    ADVANCE             83             0       0
+                   11    SEIZE               83             0       0
+                   12    ADVANCE             83             0       0
+                   13    ADVANCE             83             0       0
+                   14    RELEASE             83             0       0
+                   15    TRANSFER            83             0       0
+                   16    GENERATE           619             1       0
+                   17    SEIZE              618             0       0
+                   18    ADVANCE            618             1       0
+                   19    RELEASE            617             0       0
+                   20    TERMINATE          617             0       0
+                   21    GENERATE             1             0       0
+                   22    TERMINATE            1             0       0
+
+
+FACILITY         ENTRIES  UTIL.   AVE. TIME AVAIL. OWNER PEND INTER RETRY DELAY
+ CRANE              868    0.853      23.573  1      620    0    0     0      1
+
+
+FEC XN   PRI         BDT      ASSEM  CURRENT  NEXT  PARAMETER    VALUE
+   620    0       24007.609    620     18     19
+   622    0       24037.573    622      0     16
+     1    0       24061.957      1      6      7
+   623    0       48000.000    623      0     21
